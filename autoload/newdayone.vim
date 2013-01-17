@@ -40,7 +40,10 @@ function! newdayone#NewDayone(count, line1, line2, ...)
   endif
   let cmd = 'echo "' . content . '" | ' . s:dayone_cmd
 
-  echon ' Creating new Day One entry... '
+  redraw
+  echohl None
+  echon 'Creating new Day One entry... '
+
   let res = system(cmd)
 
   if res == 0
