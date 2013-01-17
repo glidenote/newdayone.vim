@@ -10,7 +10,7 @@ This is a vimscript for create new [Day One](http://dayoneapp.com/) entry.
 :NewDayone
 ```
 
- * Create selected text to Day One.
+ * Create Day One Entry from selected text.
 
 ```
 :'<,'>NewDayone
@@ -30,8 +30,8 @@ Bundle 'glidenote/newdayone.vim'
 
 ## Requirements
 
- * Day One[http://dayoneapp.com/](http://dayoneapp.com/)
- * Day One CLI[http://dayoneapp.com/tools](http://dayoneapp.com/tools/)
+ * Day One for Mac App [(http://dayoneapp.com/)](http://dayoneapp.com/)
+ * Day One CLI  [(http://dayoneapp.com/tools)](http://dayoneapp.com/tools/)
 
 ## License
 
