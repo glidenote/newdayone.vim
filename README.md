@@ -26,7 +26,7 @@ This is a vimscript for create new [Day One](http://dayoneapp.com/) entry.
 
 Copy it to your plugin and autoload directory.
 
-### Install with Vundle
+### Install with [Vundle](https://github.com/gmarik/vundle)
 
 Add the following lines to your `.vimrc`
 
