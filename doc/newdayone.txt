@@ -19,10 +19,12 @@ Set the path to your memo directory in your vimrc.
 COMMANDS                                        *newdayone-commands*
 
                                                 *newdayone-:NewDayone*
-:NewDayone               Create a new Day One Entry.
+:NewDayOne               Create a new Day One Entry.
     You'll be asked like following(yes or no): >
         Are you sure to create new entry? (y/n [n]):
 <
+
+:OpenDayOne              Open Day One App.
 
 ==============================================================================
 ABOUT                                           *newdayone-about*

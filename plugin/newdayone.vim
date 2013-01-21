@@ -34,8 +34,9 @@ if !executable('dayone')
   finish
 endif
 
-command! -nargs=? -range=% NewDayone :call
-      \ newdayone#NewDayone(<count>, <line1>, <line2>, <f-args>)
+command! -nargs=? -range=% NewDayOne :call
+      \ newdayone#new(<count>, <line1>, <line2>, <f-args>)
+command! -nargs=0 OpenDayOne :call newdayone#open()
 
 " __END__
 " vim: set et:

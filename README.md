@@ -7,13 +7,19 @@ This is a vimscript for create new [Day One](http://dayoneapp.com/) entry.
  * Create New Day One Entry.
 
 ```
-:NewDayone
+:NewDayOne
 ```
 
  * Create Day One Entry from selected text.
 
 ```
-:'<,'>NewDayone
+:'<,'>NewDayOne
+```
+
+ * Open Day One App.
+
+```
+:OpenDayOne
 ```
 
 ## Install

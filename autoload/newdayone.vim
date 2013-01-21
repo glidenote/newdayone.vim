@@ -27,8 +27,8 @@
 let s:save_cpo = &cpo
 set cpo&vim
 
-function! newdayone#NewDayone(count, line1, line2, ...)
-  let s:dayone_cmd = 'dayone new'
+function! newdayone#new(count, line1, line2, ...)
+  let s:new_dayone_cmd = 'dayone new'
 
   let content      = join(getline(a:line1, a:line2), "\n")
   let content      = substitute(content, '"', '\\"', "g")
@@ -38,7 +38,7 @@ function! newdayone#NewDayone(count, line1, line2, ...)
     echo ""
     return
   endif
-  let cmd = 'echo "' . content . '" | ' . s:dayone_cmd
+  let cmd = 'echo "' . content . '" | ' . s:new_dayone_cmd
 
   redraw
   echohl None
@@ -49,6 +49,19 @@ function! newdayone#NewDayone(count, line1, line2, ...)
   if res == 0
     redraw
     echon 'Done.'
+  else
+    redraw | echohl ErrorMsg | echo v:exception | echohl None
+  endif
+
+endfunction
+
+function! newdayone#open()
+  let open_dayone_cmd = 'open -a Day\ One'
+  let res = system(open_dayone_cmd)
+
+  if res == 0
+    redraw
+    echon 'Open Day One App.'
   else
     redraw | echohl ErrorMsg | echo v:exception | echohl None
   endif
