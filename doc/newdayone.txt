@@ -1,0 +1,35 @@
+*newdayone.txt*
+
+Author: Akira Maeda                             *newdayone-author*
+License: Same terms as Vim itself (see |license|)
+
+This plugin is only available if 'compatible' is not set.
+
+==============================================================================
+INTRODUCTION                                    *newdayone*
+
+*newdayone.vim* is Vim plugin to create a new Day One entry.
+*newdayone.vim*  requires DayOne(Mac App) and Day One CLI.
+
+Install in ~/.vim
+
+Set the path to your memo directory in your vimrc.
+
+==============================================================================
+COMMANDS                                        *newdayone-commands*
+
+                                                *newdayone-:NewDayone*
+:NewDayone               Create a new Day One Entry.
+    You'll be asked like following(yes or no): >
+        Are you sure to create new entry? (y/n [n]):
+<
+
+==============================================================================
+ABOUT                                           *newdayone-about*
+
+Grab the latest version or report a bug on Github:
+
+http://github.com/glidenote/newdayone.vim
+
+==============================================================================
+ vim:tw=78:et:ft=help:norl:
