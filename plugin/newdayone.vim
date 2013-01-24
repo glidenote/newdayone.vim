@@ -30,7 +30,7 @@ endif
 let g:loaded_new_dayone_vim = 1
 
 if !executable('dayone')
-  echohl ErrorMsg | echomsg "NewDayone: require 'dayone' command" | echohl None
+  echohl ErrorMsg | echomsg "NewDayOne.vim: require 'dayone' command. 'http://dayoneapp.com/tools/'" | echohl None
   finish
 endif
 
