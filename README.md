@@ -2,6 +2,8 @@
 
 This is a vimscript for create new [Day One](http://dayoneapp.com/) entry.
 
+[Demo Movie](https://vimeo.com/57588139).
+
 ## Usage
 
  * Create New Day One Entry.
