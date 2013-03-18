@@ -9,7 +9,7 @@ This plugin is only available if 'compatible' is not set.
 INTRODUCTION                                    *newdayone*
 
 *newdayone.vim* is Vim plugin to create a new Day One entry.
-*newdayone.vim*  requires DayOne(Mac App) and Day One CLI.
+newdayone.vim requires DayOne(Mac App) and Day One CLI.
 
 Install in ~/.vim
 
